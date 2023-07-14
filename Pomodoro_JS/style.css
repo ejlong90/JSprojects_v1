@@ -1,0 +1,111 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #181818;
+  background-color: #e6e6e6;
+}
+
+/* h1 {
+  text-align: center;
+} */
+
+.main_timer {
+  position: relative;
+  height: 400px;
+  width: 400px;
+}
+
+/* Removes SVG styling that would hide the time label */
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+/* The SVG path that displays the timer's progress */
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
+
+/* .timer {
+  width: 900px;
+  border: 5px solid black;
+  padding: 50px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.button1 {
+  display: block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 25px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.button1:hover {
+  background-color: #016e04;
+}
+
+.start_button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button2 {
+  display: block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #af3727;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 20px;
+  margin: auto;
+}
+
+.button2:hover {
+  background-color: #470101;
+}
+
+.start_button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} */
+
+/* Timer Style */
+.base-timer__label {
+  position: absolute;
+  
+  /* Size should match the parent container */
+  width: 300px;
+  height: 300px;
+  
+  /* Keep the label aligned to the top */
+  top: 0;
+  
+  /* Create a flexible box that centers content vertically and horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Sort of an arbitrary number; adjust to your liking */
+  font-size: 48px;
+}
