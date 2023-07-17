@@ -1,11 +1,11 @@
 :root {
   font-size: 62.5%; /* 1rem = 16px */
 
-  --color-primary: #1f224124;
-  --color-secondary: #ee7276;
+  --color-primary: #1a1a1a;
+  --color-secondary: #910005ee;
   --color-font: #e7e7e7e6;
 
-  --color-shadow: #393e79;
+  --color-shadow: #757575;
 }
 
 * {
@@ -29,11 +29,11 @@ h1 {
 }
 
 i {
-  font-size: 3.2 rem;
+  font-size: 3.2rem;
 }
 
 h1 {
-  font-size: 3.2 rem;
+  font-size: 3.2rem;
 }
 
 /* ___CONTENT___ */
@@ -104,7 +104,7 @@ section {
   width: 95%;
   height: 95%;
   border-radius: 50%;
-  background-color: var(--color-primary);
+  background-color: #1a1a1a;
 }
 
 .time {
@@ -136,6 +136,14 @@ section {
   display: none;
 }
 
+.controls #pause {
+  display: none;
+}
 
+.fa-play {
+  color: var(--color-secondary);
+}
 
-/* test*ing */
+.fa-arrow-rotate-left {
+  color: var(--color-secondary);
+}
