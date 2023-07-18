@@ -54,3 +54,24 @@ p {
 .middle{
     display:inline-block;
 }
+
+.panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  width: 20rem;
+  margin-block: 5rem;
+  padding: 1rem;
+  border-radius: 10rem;
+  -webkit-box-shadow: 5px 2px 17px 10px var(--color-shadow);
+  box-shadow: 5px 2px 17px 10px var(--color-shadow);
+}
+
+.panel p {
+  opacity: 0.8;
+  transition: 1s ease-in;
+}
+
+.panel p.active {
+  opacity: 1;
+  color: var(--color-secondary);
