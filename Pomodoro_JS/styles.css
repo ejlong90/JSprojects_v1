@@ -132,13 +132,13 @@ section {
   cursor: pointer;
 }
 
-.controls #reset {
+/* .controls #reset {
   display: none;
-}
+} */
 
-.controls #pause {
+/* .controls #pause {
   display: none;
-}
+} */
 
 .fa-play {
   color: var(--color-secondary);

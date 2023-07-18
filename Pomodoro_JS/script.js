@@ -20,7 +20,7 @@ window.onload = () => {
 function start() {
   // change button 
   document.getElementById('start').style.display = "none";
-  document.getElementById('pause').style.display = "block";
+  // document.getElementById('pause').style.display = "block";
 
   // change the time
   seconds = 3;
@@ -55,9 +55,9 @@ function start() {
             breakTitle.classList.add('active');
 
             // displaying alert window for going back to work and taking a break
-            if (seconds == 0) {
-              window.alert("Back to work!");
-            }
+            // if (seconds == 0) {
+            //   window.alert("Back to work!");
+            // }
 
         }else {
           // continue work

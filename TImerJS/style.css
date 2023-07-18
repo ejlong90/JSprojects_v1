@@ -1,0 +1,56 @@
+:root {
+  font-family: "Tektur", cursive;
+  color: #f2eeed;
+  background-color: #1f1d1d;
+}
+
+.timer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+p {
+  text-align: center;
+}
+
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.col-md-2 {
+  display: flex;
+  justify-content: center;
+  height: 34px;
+  align-items: center;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #333333;
+  color: #cccccc;
+}
+
+#sessInc,
+#sessDec,
+#breakInc,
+#breakDec {
+  font-weight: bold;
+}
+
+.clock{
+  margin-top: 30px;
+}
+
+.middle{
+    display:inline-block;
+}
